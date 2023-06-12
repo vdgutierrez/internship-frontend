@@ -1,7 +1,7 @@
-<router-outlet></router-outlet>
 <h1>PORTAL DE PASANTÍAS U.C.B. </h1>
 <h3>Resgistro de Nuevo Usuario Empresa</h3>
- <form [formGroup]="companyForm" (ngSubmit)="continue()" > 
+<!-- <form [formGroup]="companyForm" (ngSubmit)="continue()" > -->
+    <form action="">
     <h4>Datos Empresa</h4>
     <div class="form-group">
         <label for="companyName">Nombre, Razón Social o Denominación : </label>
@@ -40,7 +40,7 @@
         <label for="companyAddress">Tipo de documento : </label>
         <select name="document" id="document" formControlName="name" class="form-control">
             
-            <option value="item.id" *ngFor="let item of documents">{{item.name}}</option> 
+            <!-- <option value="item.id" *ngFor="let item of documents">{{item.name}}</option> -->
         </select>
     </div>
     <div class="form-group">

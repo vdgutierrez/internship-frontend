@@ -1,0 +1,41 @@
+*{
+    padding: 5px;
+}
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+}
+#typec{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-color: black;
+    border-radius: 15px;
+}
+#button{
+    align-items: center;
+    text-align: center;
+}
+#all{
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+#icon{
+    width:50%;
+}
+.card{
+    margin: auto;
+    border-color: white;
+}
+.card-img-top{
+    border-radius: 10px;
+}
+.container-fluid{
+    width: 50%;
+}
+#res{
+    background-color: antiquewhite;
+    width: 100%;
+
+}

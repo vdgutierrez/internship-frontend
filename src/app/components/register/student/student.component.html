@@ -1,0 +1,64 @@
+<h1>PORTAL DE PASANTÍAS U.C.B. </h1>
+<h3>Resgistro de Nuevo Usuario</h3>
+<!-- <form [formGroup]="companyForm" (ngSubmit)="continue()" > -->
+    <form action="">
+    <h4>Datos del Estudiante</h4>
+    <div class="form-group">
+        <label for="companyName">Nombres : </label>
+        <input type="text" class="form-control" id="companyName" formControlName="name" placeholder="Enter company name">
+    </div>
+    <div class="form-group">
+        <label for="companyAddress">Primer Apellido : </label>
+        <input type="text" class="form-control" id="companyAddress" formControlName="type" placeholder="Enter company address">
+    </div>
+    <div class="form-group">
+        <label for="companyAddress">Segundo Apellido : </label>
+        <input type="text" class="form-control" id="companyAddress" formControlName="type" placeholder="Enter company address">
+    </div>
+    <div class="form-group">
+        <label for="companyAddress">Tipo de documento : </label>
+        <select name="document" id="document" formControlName="name" class="form-control">
+            <!-- <option value="item.id" *ngFor="let item of documents">{{item.name}}</option> -->
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="companyPhone">Documento : </label>
+        <input type="number" class="form-control" id="companyPhone" formControlName="type" placeholder="Enter company phone">
+    </div>
+    <div class="form-group">
+        <label for="companyPhone">Vinculación con la UCB : </label>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Estudinate
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Egresado
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="companyPhone">Carrera : </label>
+        <input type="text" class="form-control" id="companyPhone" formControlName="telephone" placeholder="Enter company phone">
+    </div>
+    <div class="form-group">
+        <label for="companyPhone">Año de Ingreso : </label>
+        <input type="number" class="form-control" id="companyPhone" formControlName="type" placeholder="Enter company phone">
+    </div>
+    <div class="form-group">
+        <label for="companyPhone">Cargo : </label>
+        <input type="text" class="form-control" id="companyPhone" formControlName="type" placeholder="Enter company phone">
+    </div>
+    <div class="form-group">
+        <label for="companyAddress">Sede : </label>
+        <select name="document" id="document" formControlName="name" class="form-control">
+            <!-- <option value="item.id" *ngFor="let item of documents">{{item.name}}</option> -->
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Continuar</button>
+</form>
+
+<button (click)="nav()">NAVEGAR A company</button>

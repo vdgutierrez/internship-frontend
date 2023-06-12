@@ -1,0 +1,17 @@
+*{
+    padding: 5px;
+    
+}
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+}
+#login{
+    margin-top: 150px;
+    border: 1px solid #ccc;
+    border-color: black;
+    border-radius: 15px;
+}
+#button{
+    align-items: center;
+    text-align: center;
+}
